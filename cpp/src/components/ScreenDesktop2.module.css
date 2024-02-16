@@ -1,0 +1,119 @@
+.iconJamIconsFilledCi,
+.iconJamIconsFilledCi1,
+.iconJamIconsFilledCi2 {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 10px;
+}
+.circles {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.iconJamIconsOutlineL,
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.arrows {
+  width: 349px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.feature {
+  position: relative;
+  line-height: 140%;
+}
+.addressBar,
+.topBar {
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.addressBar {
+  width: 44.99%;
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  right: 27.42%;
+  left: 27.59%;
+  border-radius: var(--br-8xs);
+  background-color: var(--blue-gray-100);
+  display: none;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  z-index: 2;
+}
+.topBar {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  position: relative;
+  gap: var(--gap-9xl);
+  min-height: 41px;
+  max-width: 100%;
+}
+.pictureIcon,
+.wrapperPicture {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.pictureIcon {
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  width: 100%;
+  transform: scale(1.19);
+}
+.wrapperPicture {
+  height: 410px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screendesktop {
+  width: 759px;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  box-shadow: var(--shadow-dark-xxl);
+  border: 5px solid var(--white);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-xs-size);
+  color: var(--blue-gray-400);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 450px) {
+  .circles {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

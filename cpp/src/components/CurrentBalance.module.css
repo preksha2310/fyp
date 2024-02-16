@@ -1,0 +1,163 @@
+.ingredientsToBe,
+.skincareIngredientsThat {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ingredientsToBe {
+  height: 43px;
+  font-size: inherit;
+  font-weight: 600;
+}
+.skincareIngredientsThat {
+  height: 387px;
+  font-size: var(--heading-6-size);
+  font-weight: 500;
+}
+.ingredients {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(180deg, #d7befe, rgba(130, 73, 140, 0));
+  box-shadow: 0 3px 75px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-25xl) 0 var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-63xl);
+  min-width: 499px;
+  max-width: 100%;
+}
+.someSkincare {
+  margin: 0;
+  height: 43px;
+  width: 474px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 121%;
+}
+.someSkincareWrapper {
+  width: 393px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.linksToSkincare {
+  margin: 0;
+  height: 387px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.linksToSkincareProductsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-25xl) 0 var(--padding-23xl);
+  box-sizing: border-box;
+  font-size: var(--heading-6-size);
+}
+.currentBalance,
+.linksToSkincareProductsWrapper,
+.skincareLinks {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.skincareLinks {
+  width: 435px;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(180deg, #d7befe, rgba(130, 73, 140, 0));
+  box-shadow: 0 3px 75px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-19xl) 0 var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  min-width: 435px;
+}
+.currentBalance {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1050px) {
+  .ingredientsToBe {
+    font-size: var(--font-size-10xl);
+  }
+  .ingredients {
+    gap: var(--gap-63xl);
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .someSkincare {
+    font-size: var(--font-size-10xl);
+  }
+  .skincareLinks {
+    flex: 1;
+  }
+  .currentBalance {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ingredients {
+    min-width: 100%;
+  }
+  .skincareLinks {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ingredientsToBe {
+    font-size: var(--font-size-3xl);
+  }
+  .skincareIngredientsThat {
+    font-size: var(--font-size-lgi);
+  }
+  .ingredients {
+    gap: var(--gap-63xl);
+  }
+  .someSkincare {
+    font-size: var(--font-size-3xl);
+  }
+  .linksToSkincare {
+    font-size: var(--font-size-lgi);
+  }
+  .linksToSkincareProductsWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .skincareLinks {
+    gap: var(--gap-17xl);
+  }
+}

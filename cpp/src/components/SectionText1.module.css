@@ -1,0 +1,261 @@
+.caption {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: none;
+  color: var(--blue-gray-600);
+}
+.mainHeadline,
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 800;
+}
+.mainHeadline {
+  height: 158px;
+  font-size: var(--heading-1-m-size);
+  display: none;
+}
+.secondaryHeadline {
+  margin: 0;
+  font-size: var(--heading-2-size);
+  font-family: inherit;
+}
+.top {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.enimNequeMassa,
+.necMagnaSed {
+  margin: 0;
+}
+.paragraph {
+  align-self: stretch;
+  height: 116px;
+  position: relative;
+  font-size: var(--body-l-size);
+  line-height: 160%;
+  display: none;
+}
+.iconJamIconsOutlineL {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button {
+  height: 56px;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--amber-900);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-sm);
+  font-size: var(--button-l-size);
+}
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--blue-600);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-3xs);
+  color: var(--blue-600);
+}
+.iconJamIconsOutlineL4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 0;
+}
+.buttonText2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-mini);
+  z-index: 1;
+}
+.iconJamIconsOutlineL5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+  z-index: 2;
+}
+.text {
+  position: relative;
+  line-height: 140%;
+}
+.badge,
+.button3 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  border-radius: var(--br-xs);
+  background-color: var(--default-alert);
+  display: none;
+  padding: var(--padding-12xs-5) var(--padding-7xs-5);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--body-xs-size);
+  color: var(--white);
+}
+.button3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  padding: var(--padding-xs) var(--padding-5xs);
+  position: relative;
+}
+.buttonsGroup,
+.sectionText {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buttonsGroup {
+  width: 528px;
+  height: 48px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  font-size: var(--body-m-size);
+  color: var(--amber-900);
+}
+.sectionText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--button-l-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1050px) {
+  .mainHeadline {
+    font-size: var(--font-size-39xl);
+    line-height: 63px;
+  }
+  .secondaryHeadline {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sectionText {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .caption {
+    font-size: var(--body-m-size);
+    line-height: 16px;
+  }
+  .mainHeadline {
+    font-size: var(--font-size-24xl);
+    line-height: 48px;
+  }
+  .secondaryHeadline {
+    font-size: var(--font-size-15xl);
+    line-height: 37px;
+  }
+  .buttonText {
+    font-size: var(--body-m-size);
+    line-height: 19px;
+  }
+}

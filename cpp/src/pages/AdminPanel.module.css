@@ -1,0 +1,228 @@
+.foodsToAvoid,
+.whatFoodsTo {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.whatFoodsTo {
+  width: 474px;
+  height: 43px;
+  font-size: inherit;
+  font-weight: 600;
+}
+.foodsToAvoid {
+  width: 469px;
+  height: 387px;
+  font-size: var(--heading-6-size);
+  font-weight: 500;
+}
+.currentBalance1 {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(180deg, #dbeafe, rgba(255, 194, 72, 0));
+  box-shadow: 0 3px 75px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-17xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 380px;
+  max-width: 100%;
+}
+.foodsToEat,
+.whatFoodsTo1 {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.whatFoodsTo1 {
+  width: 474px;
+  height: 43px;
+  font-size: inherit;
+  font-weight: 600;
+}
+.foodsToEat {
+  width: 469px;
+  height: 387px;
+  font-size: var(--heading-6-size);
+  font-weight: 500;
+}
+.currentBalance,
+.currentBalance2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.currentBalance2 {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(180deg, #dbeafe, rgba(255, 194, 72, 0));
+  box-shadow: 0 3px 75px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-17xl) var(--padding-17xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 380px;
+}
+.currentBalance {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-41xl);
+}
+.thingsThatCan,
+.thingsToDo1 {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+}
+.thingsToDo1 {
+  width: 474px;
+  font-size: inherit;
+  font-weight: 600;
+  max-width: 100%;
+}
+.thingsThatCan {
+  align-self: stretch;
+  height: 185px;
+  font-size: var(--heading-6-size);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.thingsToDo {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(180deg, #dbeafe, rgba(255, 201, 48, 0));
+  box-shadow: 0 3px 75px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-26xl) var(--padding-14xl) var(--padding-46xl)
+    var(--padding-20xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.framebalanceinfo,
+.messageComponent,
+.thingsToDo {
+  display: flex;
+  justify-content: flex-start;
+}
+.messageComponent {
+  width: 234px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.framebalanceinfo {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-59xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--body-xs);
+}
+.adminPanel,
+.balanceInfo {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.balanceInfo {
+  width: 1300px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 50px 0 var(--padding-xl);
+  max-width: 100%;
+}
+.adminPanel {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-45xl);
+  gap: var(--gap-81xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .balanceInfo {
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .thingsToDo1,
+  .whatFoodsTo,
+  .whatFoodsTo1 {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .currentBalance1,
+  .currentBalance2 {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .currentBalance {
+    gap: var(--gap-41xl);
+  }
+  .framebalanceinfo {
+    gap: var(--gap-59xl);
+  }
+  .adminPanel {
+    gap: var(--gap-81xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatFoodsTo {
+    font-size: var(--font-size-3xl);
+  }
+  .foodsToAvoid {
+    font-size: var(--font-size-lgi);
+  }
+  .whatFoodsTo1 {
+    font-size: var(--font-size-3xl);
+  }
+  .foodsToEat {
+    font-size: var(--font-size-lgi);
+  }
+  .thingsToDo1 {
+    font-size: var(--font-size-3xl);
+  }
+  .thingsThatCan {
+    font-size: var(--font-size-lgi);
+  }
+  .thingsToDo {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .framebalanceinfo {
+    gap: var(--gap-59xl);
+  }
+  .adminPanel {
+    gap: var(--gap-81xl);
+  }
+}

@@ -1,0 +1,85 @@
+.uploading {
+  position: relative;
+}
+.headingUploaded {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.greyOutline {
+  height: 36px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.frameDocName {
+  width: 120px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  font-family: var(--font-mulish);
+  font-size: var(--body-xs-size);
+  color: var(--color-gray-200);
+}
+.loadingBar {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-slateblue-200);
+  z-index: 1;
+}
+.documentNameFrame {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.vectorShapeIcon {
+  height: 16px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.uploadingFile1,
+.vectorLine {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.uploadingFile1 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-smi) 0 0;
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.vectorLine {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--body-s-size);
+  color: var(--color-dimgray);
+  font-family: var(--font-mulish);
+}

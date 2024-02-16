@@ -1,0 +1,27 @@
+.name {
+  margin: 0 !important;
+  height: 38px;
+  position: absolute;
+  top: 29px;
+  right: 144px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.headerParent {
+  align-self: stretch;
+  height: 109px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-5-size);
+  color: var(--color-gray-100);
+  font-family: var(--body-xs);
+}

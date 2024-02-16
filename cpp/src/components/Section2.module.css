@@ -1,0 +1,111 @@
+.addressBar {
+  height: 286px;
+  width: 286px;
+  position: absolute;
+  margin: 0 !important;
+  right: 52px;
+  bottom: 175px;
+  border-radius: 50%;
+  background-color: var(--purple-100);
+  z-index: 1;
+}
+.screenDesktopTopBar {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+.contentBoxUsercard,
+.rowCirclesArrows {
+  position: relative;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-left: -9px;
+}
+.rowCirclesArrows {
+  height: 484px;
+  width: 484px;
+  border: 0 solid var(--violet-300);
+  max-width: 100%;
+}
+.contentBoxUsercard {
+  height: 286px;
+  width: 286px;
+  border: 0 solid var(--violet-500);
+}
+.ellipses {
+  width: 1500px;
+  margin: 0 !important;
+  position: absolute;
+  top: 215px;
+  left: -379px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  z-index: 4;
+}
+.headerGroup {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 5;
+}
+.bottom,
+.headerGroup,
+.picture,
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.bottom {
+  justify-content: center;
+  z-index: 5;
+}
+.picture,
+.section {
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.section {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-61xl);
+  text-align: center;
+  font-size: var(--button-l-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1200px) {
+  .section {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .section {
+    gap: var(--gap-61xl);
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section {
+    gap: var(--gap-61xl);
+  }
+}

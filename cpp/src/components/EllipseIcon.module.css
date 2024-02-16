@@ -1,0 +1,7 @@
+.screenDesktopTopBarChild {
+  height: 730px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}

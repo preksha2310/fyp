@@ -1,0 +1,101 @@
+.frameContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #5721b7, #d668cd 89.9%);
+  filter: blur(0);
+  mix-blend-mode: normal;
+}
+.gradients,
+.rectangleInstance {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(20px);
+  width: 904px;
+  height: 30px;
+}
+.rectangleInstance {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    #fff 48.23%,
+    rgba(255, 255, 255, 0)
+  );
+  filter: blur(10px);
+}
+.framedDualRectangles,
+.light {
+  position: absolute;
+  left: 0;
+  width: 894px;
+}
+.light {
+  top: 0;
+  background-color: transparent;
+  height: 12px;
+  mix-blend-mode: hard-light;
+  z-index: 2;
+}
+.framedDualRectangles {
+  top: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+  filter: blur(1px);
+  height: 6px;
+  mix-blend-mode: lighten;
+}
+.framedDualRectangles1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    #fff 48.23%,
+    rgba(255, 255, 255, 0)
+  );
+  filter: blur(10px);
+}
+.light1,
+.lightFrame,
+.loading {
+  position: absolute;
+  width: 894px;
+  height: 12px;
+}
+.light1 {
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.03);
+  z-index: 3;
+}
+.lightFrame,
+.loading {
+  top: 9px;
+  left: 5px;
+}
+.loading {
+  top: 345px;
+  left: 268px;
+  width: 904px;
+  height: 30px;
+}
+.loadingPage {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  background: linear-gradient(180deg, #e0e9f2, #f4e9d1 42%, #fff);
+  overflow: hidden;
+}

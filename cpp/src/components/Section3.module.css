@@ -1,0 +1,325 @@
+.wavesIcon {
+  width: 1440px;
+  height: 635px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -183px;
+  left: 0;
+  object-fit: cover;
+}
+.iconJamIconsOutlineL {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.whatWeCan {
+  width: 217px;
+  position: relative;
+  font-size: var(--button-l-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-xs);
+  color: var(--blue-gray-900);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--white);
+  width: 301px;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--shadow-dark-m);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.acne {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.vitiligo {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.buttonText {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.buttonText1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+}
+.iconJamIconsOutlineL5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button4 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.buttonText2 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer5 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+}
+.iconJamIconsOutlineL6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button5,
+.col {
+  display: flex;
+  justify-content: flex-start;
+}
+.button5 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base);
+}
+.col {
+  width: 256px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.pictureIcon {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  transform: scale(1.336);
+}
+.wrapperPicture {
+  width: 256px;
+  height: 286px;
+  margin: 0 !important;
+  position: absolute;
+  top: 202px;
+  right: 0;
+  border-radius: var(--br-3xs);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col1,
+.row,
+.section {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.col1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  min-width: 614px;
+  min-height: 556px;
+  font-size: var(--body-xs-size);
+  color: var(--blue-gray-400);
+}
+.row,
+.section {
+  align-self: stretch;
+  gap: var(--gap-61xl);
+}
+.row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.section {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-61xl);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 764px;
+  text-align: left;
+  font-size: var(--button-l-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1050px) {
+  .col1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .row,
+  .section {
+    gap: var(--gap-61xl);
+  }
+  .section {
+    padding: var(--padding-33xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .acne,
+  .buttonText,
+  .buttonText1,
+  .buttonText2,
+  .vitiligo,
+  .whatWeCan {
+    font-size: var(--body-m-size);
+    line-height: 19px;
+  }
+  .row,
+  .section {
+    gap: var(--gap-61xl);
+  }
+}

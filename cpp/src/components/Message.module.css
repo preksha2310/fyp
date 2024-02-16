@@ -1,0 +1,89 @@
+.print {
+  margin: 0;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.blankComponent {
+  position: absolute;
+  top: 5.71px;
+  left: 0;
+  display: inline-block;
+  width: 13.9px;
+  height: 25.9px;
+  transform: rotate(-24.24deg);
+  transform-origin: 0 0;
+}
+.blankComponent1 {
+  top: 57.94px;
+  left: 25.53px;
+  color: var(--color-red-200);
+}
+.blankComponent1,
+.blankComponent2,
+.blankComponent3 {
+  position: absolute;
+  display: inline-block;
+  width: 13.8px;
+  height: 26px;
+  transform: rotate(36.95deg);
+  transform-origin: 0 0;
+}
+.blankComponent2 {
+  right: -2.33px;
+  bottom: 59.76px;
+  filter: blur(2px);
+}
+.blankComponent3 {
+  bottom: 2.96px;
+  left: 26.93px;
+  color: var(--color-black);
+}
+.decoration {
+  width: 52.3px;
+  height: 204.7px;
+  position: relative;
+}
+.decorativeFrame,
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+.decorativeFrame {
+  height: 71px;
+  width: -972px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0 0;
+  box-sizing: border-box;
+  font-size: var(--body-m-size);
+  color: var(--color-darkslateblue);
+}
+.message {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-lavender-100);
+  box-shadow: 0 3px 75px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xl) 0 0 var(--padding-29xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1050px) {
+  .print {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .print {
+    font-size: var(--font-size-3xl);
+  }
+}

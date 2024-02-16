@@ -1,0 +1,124 @@
+.signupFrame {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -201px;
+  left: 499px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+}
+.erma,
+.ine {
+  color: var(--violet-600);
+}
+.dermafine1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.dermafine,
+.dermafineWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dermafineWrapper {
+  width: 472px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.privacyPolicy1,
+.termsAndConditions {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 15.6px;
+}
+.privacyPolicy,
+.termsConditionsFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.privacyPolicy {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+.termsConditionsFrame {
+  width: 593px;
+  height: 16px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-s-size);
+  color: var(--text-primary);
+  font-family: var(--body-xs);
+}
+.innerFrame,
+.inputFrame,
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+.innerFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  max-width: 100%;
+}
+.inputFrame,
+.signup {
+  box-sizing: border-box;
+}
+.inputFrame {
+  width: 1280px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-5-size);
+  color: var(--violet-900);
+  font-family: var(--body-xs);
+}
+.signup {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 141px 0 var(--padding-smi);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1000px) {
+  .dermafine1 {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .inputFrame {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dermafine1 {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .privacyPolicy {
+    gap: var(--gap-22xl);
+  }
+}
